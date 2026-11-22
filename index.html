@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Trámites y Servicios ASERET | Gestoría Vehicular, Oficial y Legal</title>
+  <meta name="description" content="Gestión rápida, segura y sin filas de trámites vehiculares (Edomex y CDMX), actas, documentos oficiales y servicios legales. Contáctanos al 56 1294 0794." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+          },
+          colors: {
+            brand: {
+              50: '#fff7ed',
+              100: '#ffedd5',
+              200: '#fed7aa',
+              300: '#fdba74',
+              400: '#fb923c',
+              500: '#f97316',
+              600: '#ea580c',
+              700: '#c2410c',
+              800: '#9a3412',
+              900: '#7c2d12',
+            }
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body {
+      font-family: 'Plus Jakarta Sans', sans-serif;
+    }
+    .tab-btn.active {
+      background-color: #f97316;
+      color: #ffffff;
+      box-shadow: 0 4px 14px 0 rgba(249, 115, 22, 0.35);
+    }
+    .glass-card {
+      background: rgba(255, 255, 255, 0.95);
+      backdrop-filter: blur(8px);
+    }
+  </style>
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased selection:bg-brand-500 selection:text-white">
+
+  <!-- Barra Superior / Navegación -->
+  <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-orange-100 shadow-sm">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 h-16 sm:h-20 flex items-center justify-between">
+      <a href="#" class="flex items-center gap-3 group">
+        <div class="w-10 h-10 sm:w-11 sm:h-11 rounded-xl bg-gradient-to-br from-brand-500 to-brand-600 flex items-center justify-center text-white font-extrabold text-xl shadow-md shadow-brand-500/25 group-hover:scale-105 transition-transform">
+          A
+        </div>
+        <div>
+          <span class="block text-base sm:text-lg font-extrabold tracking-tight text-slate-900 leading-none">
+            Trámites y Servicios <span class="text-brand-600">ASERET</span>
+          </span>
+          <span class="block text-xs text-slate-500 font-medium mt-0.5">Edomex y CDMX • Atención Directa</span>
+        </div>
+      </a>
+
+      <nav class="hidden md:flex items-center gap-7 text-sm font-semibold text-slate-600">
+        <a href="#vehiculares" class="hover:text-brand-600 transition-colors">Trámites Vehiculares</a>
+        <a href="#servicios" class="hover:text-brand-600 transition-colors">Documentos y Actas</a>
+        <a href="#legales" class="hover:text-brand-600 transition-colors">Servicios Legales</a>
+        <a href="#como-funciona" class="hover:text-brand-600 transition-colors">¿Cómo funciona?</a>
+      </nav>
+
+      <div class="flex items-center gap-2.5">
+        <a href="tel:5612940794" class="hidden sm:inline-flex items-center gap-1.5 text-sm font-bold text-brand-700 bg-brand-50 hover:bg-brand-100 px-3.5 py-2 rounded-xl transition-colors">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"/></svg>
+          56 1294 0794
+        </a>
+        <a href="https://wa.me/525612940794?text=Hola%20Tr%C3%A1mites%20y%20Servicios%20ASERET,%20me%20gustar%C3%ADa%20cotizar%20un%20tr%C3%A1mite." target="_blank" rel="noopener" class="inline-flex items-center gap-2 bg-brand-500 hover:bg-brand-600 text-white text-sm font-bold px-4 py-2.5 rounded-xl shadow-md shadow-brand-500/25 transition-all active:scale-95">
+          <span>WhatsApp</span>
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="relative overflow-hidden bg-gradient-to-b from-orange-50/90 via-white to-slate-50 pt-10 pb-16 sm:pt-16 sm:pb-24">
+    <div class="absolute -top-24 -right-24 w-96 h-96 bg-brand-200/40 rounded-full blur-3xl pointer-events-none"></div>
+    <div class="absolute top-40 -left-24 w-72 h-72 bg-amber-200/30 rounded-full blur-3xl pointer-events-none"></div>
+
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+      <div class="grid lg:grid-cols-12 gap-10 lg:gap-12 items-center">
+        <!-- Columna Texto -->
+        <div class="lg:col-span-7 text-center lg:text-left">
+          <div class="inline-flex items-center gap-2 bg-brand-100/80 border border-brand-200 text-brand-800 text-xs sm:text-sm font-bold px-3.5 py-1.5 rounded-full mb-5">
+            <span class="w-2 h-2 rounded-full bg-brand-500 animate-pulse"></span>
+            Gestoría Integral en Estado de México y CDMX
+          </div>
+
+          <h1 class="text-3xl sm:text-5xl lg:text-[3.25rem] font-extrabold text-slate-900 tracking-tight leading-[1.12] mb-5">
+            Tus trámites vehiculares, oficiales y legales <span class="text-transparent bg-clip-text bg-gradient-to-r from-brand-500 to-brand-700">sin filas ni vueltas.</span>
+          </h1>
+
+          <p class="text-base sm:text-lg text-slate-600 leading-relaxed max-w-2xl mx-auto lg:mx-0 mb-8">
+            En <strong class="text-slate-900">Trámites y Servicios ASERET</strong> revisamos tus requisitos antes de iniciar, te damos claridad total y gestionamos tus documentos de forma segura y puntual.
+          </p>
+
+          <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-3.5 mb-8">
+            <a href="https://wa.me/525612940794?text=Hola%20ASERET,%20necesito%20informaci%C3%B3n%20sobre%20un%20tr%C3%A1mite." target="_blank" rel="noopener" class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-brand-500 hover:bg-brand-600 text-white font-bold text-base px-7 py-4 rounded-2xl shadow-lg shadow-brand-500/30 transition-all hover:-translate-y-0.5">
+              Cotizar mi trámite por WhatsApp
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg>
+            </a>
+            <a href="#vehiculares" class="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-white hover:bg-orange-50 text-slate-800 border border-slate-200 hover:border-brand-300 font-bold text-base px-6 py-4 rounded-2xl transition-colors">
+              Ver requisitos y servicios
+            </a>
+          </div>
+
+          <!-- Puntos de confianza -->
+          <div class="grid grid-cols-3 gap-3 sm:gap-6 pt-4 border-t border-slate-200/80 max-w-lg mx-auto lg:mx-0">
+            <div>
+              <p class="text-xl sm:text-2xl font-extrabold text-brand-600">8+</p>
+              <p class="text-xs sm:text-sm text-slate-600 font-medium">Trámites vehiculares</p>
+            </div>
+            <div>
+              <p class="text-xl sm:text-2xl font-extrabold text-brand-600">100%</p>
+              <p class="text-xs sm:text-sm text-slate-600 font-medium">Revisión previa</p>
+            </div>
+            <div>
+              <p class="text-xl sm:text-2xl font-extrabold text-brand-600">Directo</p>
+              <p class="text-xs sm:text-sm text-slate-600 font-medium">Trato personalizado</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Columna Buscador Rápido / Cotizador Interactivo -->
+        <div class="lg:col-span-5">
+          <div class="bg-white rounded-3xl p-6 sm:p-8 shadow-xl shadow-slate-200/70 border border-orange-100">
+            <div class="flex items-center justify-between mb-4">
+              <span class="text-xs font-extrabold uppercase tracking-wider text-brand-600 bg-brand-50 px-3 py-1 rounded-full">Asesoría Express</span>
+              <span class="text-xs font-semibold text-slate-500">Tel: 56 1294 0794</span>
+            </div>
+            <h2 class="text-xl sm:text-2xl font-extrabold text-slate-900 mb-2">¿Qué trámite necesitas hoy?</h2>
+            <p class="text-sm text-slate-600 mb-5">Elige una opción y envíanos mensaje directo con el trámite ya seleccionado.</p>
+
+            <div class="space-y-4">
+              <div>
+                <label for="quickCategory" class="block text-xs font-bold uppercase tracking-wide text-slate-600 mb-1.5">1. Categoría</label>
+                <select id="quickCategory" class="w-full rounded-xl border border-slate-200 bg-slate-50 px-4 py-3 text-sm font-semibold text-slate-800 focus:border-brand-500 focus:bg-white focus:outline-none">
+                  <option value="vehicular">Trámites Vehiculares (Edomex / CDMX)</option>
+                  <option value="servicios">Servicios, Constancias y Actas</option>
+                  <option value="legales">Servicios Legales y ODAPAS</option>
+                </select>
+              </div>
+
+              <div>
+                <label for="quickService" class="block text-xs font-bold uppercase tracking-wide text-slate-600 mb-1.5">2. Trámite o Servicio</label>
+                <select id="quickService" class="w-full rounded-xl border border-slate-200 bg-slate-50 px-4 py-3 text-sm font-semibold text-slate-800 focus:border-brand-500 focus:bg-white focus:outline-none">
+                  <!-- Se llena dinámicamente con JS -->
+                </select>
+              </div>
+
+              <div id="quickReqBox" class="bg-orange-50/80 border border-brand-200/80 rounded-2xl p-4">
+                <p class="text-xs font-extrabold uppercase tracking-wide text-brand-700 mb-1.5">Requisitos solicitados:</p>
+                <p id="quickReqText" class="text-sm text-slate-700 font-medium leading-relaxed"></p>
+              </div>
+
+              <button id="quickWhatsAppBtn" type="button" class="w-full bg-brand-500 hover:bg-brand-600 text-white font-bold py-3.5 px-5 rounded-xl shadow-md shadow-brand-500/25 transition-all flex items-center justify-center gap-2">
+                <span>Enviar consulta por WhatsApp</span>
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN 1: TRÁMITES VEHICULARES -->
+  <section id="vehiculares" class="py-16 sm:py-20 bg-white border-t border-slate-100">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="max-w-3xl mb-10 sm:mb-12">
+        <span class="inline-block text-xs font-extrabold uppercase tracking-wider text-brand-600 bg-brand-50 px-3 py-1 rounded-full mb-3">Sección 01 • Control Vehicular</span>
+        <h2 class="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mb-3">Trámites Vehiculares (Edomex y CDMX)</h2>
+        <p class="text-base text-slate-600">Consulta los 8 trámites vehiculares disponibles y verifica exactamente qué documentos necesitas tener a la mano.</p>
+      </div>
+
+      <!-- Tarjeta destacada: Formatos para pago de derechos y licencias (Campo único) -->
+      <div class="mb-8 rounded-3xl bg-gradient-to-r from-brand-500 to-brand-600 p-6 sm:p-8 text-white shadow-lg shadow-brand-500/20 flex flex-col md:flex-row md:items-center justify-between gap-6">
+        <div class="space-y-2 max-w-2xl">
+          <div class="inline-flex items-center gap-2 bg-white/20 backdrop-blur-sm text-white text-xs font-bold px-3 py-1 rounded-full">
+            <span>Trámite 1 de 8</span>
+            <span>•</span>
+            <span>Edomex y CDMX</span>
+          </div>
+          <h3 class="text-xl sm:text-2xl font-extrabold leading-snug">
+            Formatos para pago de derechos y licencias Edomex y CDMX
+          </h3>
+          <p class="text-sm sm:text-base text-orange-50">
+            Generación y gestión rápida de líneas de captura y formatos oficiales para pagos de derechos vehiculares y licencias de conducir en Estado de México y Ciudad de México.
+          </p>
+        </div>
+        <div class="shrink-0">
+          <a href="https://wa.me/525612940794?text=Hola%20ASERET,%20necesito%20Formatos%20para%20pago%20de%20derechos%20y%20licencias%20Edomex%20y%20CDMX." target="_blank" rel="noopener" class="inline-flex items-center justify-center gap-2 bg-white text-brand-700 hover:bg-orange-50 font-extrabold text-sm px-6 py-3.5 rounded-xl shadow-sm transition-colors w-full md:w-auto">
+            Solicitar formato ahora
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Grid de los otros 7 trámites vehiculares con sus requisitos exactos -->
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+        <!-- 1. Cambio de propietario -->
+        <article class="rounded-2xl border border-slate-200 hover:border-brand-300 bg-slate-50/60 hover:bg-white p-6 transition-all shadow-sm hover:shadow-md flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <span class="text-xs font-extrabold text-brand-700 bg-brand-100 px-2.5 py-1 rounded-lg">Trámite 02</span>
+              <span class="text-xs font-semibold text-slate-400">Vehicular</span>
+            </div>
+            <h3 class="text-lg font-extrabold text-slate-900 mb-3">Cambio de propietario</h3>
+            <p class="text-xs font-bold uppercase tracking-wider text-slate-500 mb-2">Requisitos:</p>
+            <ul class="space-y-1.5 text-sm text-slate-700 mb-6">
+              <li class="flex items-start gap-2"><span class="text-brand-500 font-bold">✓</span> Factura</li>
+              <li class="flex items-start gap-2"><span class="text-brand-500 font-bold">✓</span> INE</li>
+              <li class="flex items-start gap-2"><span class="text-brand-500 font-bold">✓</span> Comprobante de domicilio</li>
+              <li class="flex items-start gap-2"><span class="text-brand-500 font-bold">✓</span> Tarjeta de circulación</li>
+              <li class="flex items-start gap-2"><span class="text-brand-500 font-bold">✓</span> Compraventa o endoso en la factura</li>
+            </ul>
+          </div>
+          <a href="https://wa.me/525612940794?text=Hola%20ASERET,%20me%20interesa%20el%20tr%C3%A1mite%20de%20Cambio%20de%20propietario." target="_blank" rel="noopener" class="inline-flex items-center justify-center w-full py-2.5 px-4 rounded-xl bg-white border border-brand-200 text-brand-700 hover:bg-brand-500 hover:text-white hover:border-brand-500 font-bold text-sm transition-colors">
+            Cotizar Cambio de propietario
+          </a>
+        </article>
+
+        <!-- 2. Renovación de placas -->
+        <article class="rounded-2xl border border-slate-200 hover:border-brand-300 bg-slate-50/60 hover:bg-white p-6 transition-all shadow-sm hover:shadow-md flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <span class="text-xs font-extrabold text-brand-700 bg-brand-100 px-2.5 py-1 rounded-lg">Trámite 03</span>
+              <span class="text-xs font-semibold text-slate-400">Vehicular</span>
+            </div>
+            <h3 class="text-lg font-extrabold text-slate-900 mb-3">Renovación de placas</h3>
+            <p class="text-xs font-bold uppercase tracking-wider text-slate-500 mb-2">Requisitos:</p>
+            <ul class="space-y-1.5 text-sm text-slate-700 mb-6">
+              <li class="flex items-start gap-2"><span class="text-brand-500 font-bold">✓</span> Factura</li>
+              <li class="flex items-start gap-2"><span class="text-brand-500 font-bold">✓</span> INE</li>
+              <li class="flex items-start gap-2"><span class="text-brand-500 font-bold">✓</span> Comprobante de domicilio</li>
+              <li class="flex items-start gap-2"><span class="text-brand-500 font-bold">✓</span> Tarjeta de circulación</li>
+              <li class="flex items-start gap-2"><span class="text-brand-500 font-bold">✓</span> Compraventa o endoso en la factura</li>
+            </ul>
+          </div>
+          <a href="https://wa.me/525612940794?text=Hola%20ASERET,%20me%20interesa%20el%20tr%C3%A1mite%20de%20Renovaci%C3%B3n%20de%20placas." target="_blank" rel="noopener" class="inline-flex items-center justify-center w-full py-2.5 px-4 rounded-xl bg-white border border-brand-200 text-brand-700 hover:bg-brand-500 hover:text-white hover:border-brand-500 font-bold text-sm transition-colors">
+            Cotizar Renovación de placas
+          </a>
+        </article>
+
+        <!-- 3. Alta vehículos nuevos y usados -->
+        <article class="rounded-2xl border border-slate-200 hover:border-brand-300 bg-slate-50/60 hover:bg-white p-6 transition-all shadow-sm hover:shadow-md flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <span class="text-xs font-extrabold text-brand-700 bg-brand-100 px-2.5 py-1 rounded-lg">Trámite 04</span>
+              <span class="text-xs font-semibold text-slate-400">Vehicular</span>
+            </div>
+            <h3 class="text-lg font-extrabold text-slate-900 mb-3">Alta vehículos nuevos y usados</h3>
+            <p class="text-xs font-bold uppercase tracking-wider text-slate-500 mb-2">Requisitos:</p>
+            <ul class="space-y-1.5 text-sm text-slate-700 mb-6">
+              <li class="flex items-start gap-2"><span class="text-brand-500 font-bold">✓</span> Factura</li>
+              <li class="flex items-start gap-2"><span class="text-brand-500 font-bold">✓</span> Carta factura</li>
+              <li class="flex items-start gap-2"><span class="text-brand-500 font-bold">✓</span> INE</li>
+              <li class="flex items-start gap-2"><span class="text-brand-500 font-bold">✓</span> Comprobante de domicilio</li>
+            </ul>
+          </div>
+          <a href="https://wa.me/525612940794?text=Hola%20ASERET,%20me%20interesa%20el%20tr%C3%A1mite%20de%20Alta%20de%20veh%C3%ADculos%20nuevos%20y%20usados." target="_blank" rel="noopener" class="inline-flex items-center justify-center w-full py-2.5 px-4 rounded-xl bg-white border border-brand-200 text-brand-700 hover:bg-brand-500 hover:text-white hover:border-brand-500 font-bold text-sm transition-colors">
+            Cotizar Alta de vehículo
+          </a>
+        </article>
+
+        <!-- 4. Reposición de tarjeta de circulación -->
+        <article class="rounded-2xl border border-slate-200 hover:border-brand-300 bg-slate-50/60 hover:bg-white p-6 transition-all shadow-sm hover:shadow-md flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <span class="text-xs font-extrabold text-brand-700 bg-brand-100 px-2.5 py-1 rounded-lg">Trámite 05</span>
+              <span class="text-xs font-semibold text-slate-400">Vehicular</span>
+            </div>
+            <h3 class="text-lg font-extrabold text-slate-900 mb-3">Reposición de tarjeta de circulación</h3>
+            <p class="text-xs font-bold uppercase tracking-wider text-slate-500 mb-2">Requisitos:</p>
+            <ul class="space-y-1.5 text-sm text-slate-700 mb-6">
+              <li class="flex items-start gap-2"><span class="text-brand-500 font-bold">✓</span> Factura</li>
+              <li class="flex items-start gap-2"><span class="text-brand-500 font-bold">✓</span> INE</li>
+              <li class="flex items-start gap-2"><span class="text-brand-500 font-bold">✓</span> Comprobante de domicilio</li>
+              <li class="flex items-start gap-2"><span class="text-brand-500 font-bold">✓</span> Tarjeta de circulación</li>
+            </ul>
+          </div>
+          <a href="https://wa.me/525612940794?text=Hola%20ASERET,%20me%20interesa%20la%20Reposici%C3%B3n%20de%20tarjeta%20de%20circulaci%C3%B3n." target="_blank" rel="noopener" class="inline-flex items-center justify-center w-full py-2.5 px-4 rounded-xl bg-white border border-brand-200 text-brand-700 hover:bg-brand-500 hover:text-white hover:border-brand-500 font-bold text-sm transition-colors">
+            Cotizar Reposición de tarjeta
+          </a>
+        </article>
+
+        <!-- 5. Baja de placas -->
+        <article class="rounded-2xl border border-slate-200 hover:border-brand-300 bg-slate-50/60 hover:bg-white p-6 transition-all shadow-sm hover:shadow-md flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <span class="text-xs font-extrabold text-brand-700 bg-brand-100 px-2.5 py-1 rounded-lg">Trámite 06</span>
+              <span class="text-xs font-semibold text-slate-400">Vehicular</span>
+            </div>
+            <h3 class="text-lg font-extrabold text-slate-900 mb-3">Baja de placas</h3>
+            <p class="text-xs font-bold uppercase tracking-wider text-slate-500 mb-2">Requisitos:</p>
+            <ul class="space-y-1.5 text-sm text-slate-700 mb-6">
+              <li class="flex items-start gap-2"><span class="text-brand-500 font-bold">✓</span> Factura</li>
+              <li class="flex items-start gap-2"><span class="text-brand-500 font-bold">✓</span> INE</li>
+              <li class="flex items-start gap-2"><span class="text-brand-500 font-bold">✓</span> Comprobante de domicilio</li>
+              <li class="flex items-start gap-2"><span class="text-brand-500 font-bold">✓</span> Tarjeta de circulación</li>
+            </ul>
+          </div>
+          <a href="https://wa.me/525612940794?text=Hola%20ASERET,%20me%20interesa%20el%20tr%C3%A1mite%20de%20Baja%20de%20placas." target="_blank" rel="noopener" class="inline-flex items-center justify-center w-full py-2.5 px-4 rounded-xl bg-white border border-brand-200 text-brand-700 hover:bg-brand-500 hover:text-white hover:border-brand-500 font-bold text-sm transition-colors">
+            Cotizar Baja de placas
+          </a>
+        </article>
+
+        <!-- 6. Alta de vehículo de otra entidad -->
+        <article class="rounded-2xl border border-slate-200 hover:border-brand-300 bg-slate-50/60 hover:bg-white p-6 transition-all shadow-sm hover:shadow-md flex flex-col justify-between">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <span class="text-xs font-extrabold text-brand-700 bg-brand-100 px-2.5 py-1 rounded-lg">Trámite 07</span>
+              <span class="text-xs font-semibold text-slate-400">Vehicular</span>
+            </div>
+            <h3 class="text-lg font-extrabold text-slate-900 mb-3">Alta de vehículo de otra entidad</h3>
+            <p class="text-xs font-bold uppercase tracking-wider text-slate-500 mb-2">Requisitos:</p>
+            <ul class="space-y-1.5 text-sm text-slate-700 mb-6">
+              <li class="flex items-start gap-2"><span class="text-brand-500 font-bold">✓</span> Factura</li>
+              <li class="flex items-start gap-2"><span class="text-brand-500 font-bold">✓</span> INE</li>
+              <li class="flex items-start gap-2"><span class="text-brand-500 font-bold">✓</span> Comprobante de domicilio</li>
+              <li class="flex items-start gap-2"><span class="text-brand-500 font-bold">✓</span> Tarjeta de circulación</li>
+              <li class="flex items-start gap-2"><span class="text-brand-500 font-bold">✓</span> Compraventa o endoso en la factura</li>
+            </ul>
+          </div>
+          <a href="https://wa.me/525612940794?text=Hola%20ASERET,%20me%20interesa%20el%20Alta%20de%20veh%C3%ADculo%20de%20otra%20entidad." target="_blank" rel="noopener" class="inline-flex items-center justify-center w-full py-2.5 px-4 rounded-xl bg-white border border-brand-200 text-brand-700 hover:bg-brand-500 hover:text-white hover:border-brand-500 font-bold text-sm transition-colors">
+            Cotizar Alta foránea
+          </a>
+        </article>
+
+        <!-- 7. Cambio de dígito para circular -->
+        <article class="rounded-2xl border border-slate-200 hover:border-brand-300 bg-slate-50/60 hover:bg-white p-6 transition-all shadow-sm hover:shadow-md flex flex-col justify-between md:col-span-2 lg:col-span-1">
+          <div>
+            <div class="flex items-center justify-between mb-3">
+              <span class="text-xs font-extrabold text-brand-700 bg-brand-100 px-2.5 py-1 rounded-lg">Trámite 08</span>
+              <span class="text-xs font-semibold text-slate-400">Vehicular</span>
+            </div>
+            <h3 class="text-lg font-extrabold text-slate-900 mb-3">Cambio de dígito para circular</h3>
+            <p class="text-xs font-bold uppercase tracking-wider text-slate-500 mb-2">Requisitos:</p>
+            <ul class="space-y-1.5 text-sm text-slate-700 mb-6">
+              <li class="flex items-start gap-2"><span class="text-brand-500 font-bold">✓</span> Factura</li>
+              <li class="flex items-start gap-2"><span class="text-brand-500 font-bold">✓</span> INE</li>
+              <li class="flex items-start gap-2"><span class="text-brand-500 font-bold">✓</span> Comprobante de domicilio</li>
+              <li class="flex items-start gap-2"><span class="text-brand-500 font-bold">✓</span> Tarjeta de circulación</li>
+              <li class="flex items-start gap-2"><span class="text-brand-500 font-bold">✓</span> Compraventa o endoso en la factura</li>
+            </ul>
+          </div>
+          <a href="https://wa.me/525612940794?text=Hola%20ASERET,%20me%20interesa%20el%20Cambio%20de%20d%C3%ADgito%20para%20circular." target="_blank" rel="noopener" class="inline-flex items-center justify-center w-full py-2.5 px-4 rounded-xl bg-white border border-brand-200 text-brand-700 hover:bg-brand-500 hover:text-white hover:border-brand-500 font-bold text-sm transition-colors">
+            Cotizar Cambio de dígito
+          </a>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN 2: SERVICIOS (DOCUMENTOS OFICIALES, CONSTANCIAS Y ACTAS) -->
+  <section id="servicios" class="py-16 sm:py-20 bg-orange-50/50 border-t border-orange-100">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="max-w-3xl mb-10 sm:mb-12">
+        <span class="inline-block text-xs font-extrabold uppercase tracking-wider text-brand-700 bg-brand-100 px-3 py-1 rounded-full mb-3">Sección 02 • Documentos Oficiales</span>
+        <h2 class="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mb-3">Servicios, Constancias y Actas</h2>
+        <p class="text-base text-slate-600">Obtén tus constancias oficiales, certificados y actas del registro civil con entrega ágil y sin complicaciones.</p>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-6">
+        <!-- Bloque A: CURP -->
+        <div class="bg-white rounded-3xl p-6 sm:p-7 border border-orange-100 shadow-sm flex flex-col justify-between">
+          <div>
+            <div class="w-12 h-12 rounded-2xl bg-brand-100 text-brand-600 flex items-center justify-center mb-5">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M15 9h3.75M15 12h3.75M15 15h3.75M4.5 19.5h15a2.25 2.25 0 002.25-2.25V6.75A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25v10.5A2.25 2.25 0 004.5 19.5zm6-10.125a1.875 1.875 0 11-3.75 0 1.875 1.875 0 013.75 0zm1.294 6.336a6.721 6.721 0 01-3.17.789 6.721 6.721 0 01-3.168-.789 3.376 3.376 0 016.338 0z"/></svg>
+            </div>
+            <h3 class="text-xl font-extrabold text-slate-900 mb-2">CURP</h3>
+            <p class="text-sm text-slate-600 mb-4">Consulta, descarga actualizada y certificación de Clave Única de Registro de Población.</p>
+            <div class="bg-brand-50/80 border border-brand-100 rounded-xl p-3.5 mb-6">
+              <p class="text-xs font-extrabold uppercase tracking-wide text-brand-700 mb-1">Requisitos:</p>
+              <p class="text-sm font-semibold text-slate-800">INE o datos personales</p>
+            </div>
+          </div>
+          <a href="https://wa.me/525612940794?text=Hola%20ASERET,%20necesito%20tramitar%20mi%20CURP." target="_blank" rel="noopener" class="inline-flex items-center justify-center w-full py-3 px-4 rounded-xl bg-brand-500 hover:bg-brand-600 text-white font-bold text-sm transition-colors">
+            Solicitar CURP
+          </a>
+        </div>
+
+        <!-- Bloque B: Constancias IMSS, ISSSTE, No Deudor y Antecedentes -->
+        <div class="bg-white rounded-3xl p-6 sm:p-7 border border-orange-100 shadow-sm flex flex-col justify-between">
+          <div>
+            <div class="w-12 h-12 rounded-2xl bg-brand-100 text-brand-600 flex items-center justify-center mb-5">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12h3.75M9 15h3.75M9 18h3.75m3 .75H18a2.25 2.25 0 002.25-2.25V6.108c0-1.135-.845-2.098-1.976-2.192a48.424 48.424 0 00-1.123-.08m-5.801 0c-.065.21-.1.433-.1.664 0 .414.336.75.75.75h4.5a.75.75 0 00.75-.75 2.25 2.25 0 00-.1-.664m-5.8 0A2.251 2.251 0 0113.5 2.25H15c1.012 0 1.867.668 2.15 1.586m-5.8 0c-.376.023-.75.05-1.124.08C9.095 4.01 8.25 4.973 8.25 6.108V8.25m0 0H4.875c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125h9.75c.621 0 1.125-.504 1.125-1.125V9.375c0-.621-.504-1.125-1.125-1.125H8.25z"/></svg>
+            </div>
+            <h3 class="text-xl font-extrabold text-slate-900 mb-3">Constancias y Certificados</h3>
+            <ul class="space-y-2 text-sm text-slate-700 mb-6">
+              <li class="flex items-start gap-2"><span class="text-brand-500 font-bold">•</span> Número de Seguro Social (NSS)</li>
+              <li class="flex items-start gap-2"><span class="text-brand-500 font-bold">•</span> Vigencia de derechos IMSS</li>
+              <li class="flex items-start gap-2"><span class="text-brand-500 font-bold">•</span> Semanas cotizadas</li>
+              <li class="flex items-start gap-2"><span class="text-brand-500 font-bold">•</span> No derechohabiente IMSS o ISSSTE</li>
+              <li class="flex items-start gap-2"><span class="text-brand-500 font-bold">•</span> Certificado de no deudor alimentario</li>
+              <li class="flex items-start gap-2"><span class="text-brand-500 font-bold">•</span> Antecedentes no penales (Estado, Ciudad de México o Federales)</li>
+            </ul>
+          </div>
+          <a href="https://wa.me/525612940794?text=Hola%20ASERET,%20necesito%20tramitar%20una%20constancia%20(IMSS/ISSSTE/No%20deudor/Antecedentes)." target="_blank" rel="noopener" class="inline-flex items-center justify-center w-full py-3 px-4 rounded-xl bg-brand-500 hover:bg-brand-600 text-white font-bold text-sm transition-colors">
+            Solicitar Constancia
+          </a>
+        </div>
+
+        <!-- Bloque C: Actas -->
+        <div class="bg-white rounded-3xl p-6 sm:p-7 border border-orange-100 shadow-sm flex flex-col justify-between">
+          <div>
+            <div class="w-12 h-12 rounded-2xl bg-brand-100 text-brand-600 flex items-center justify-center mb-5">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z"/></svg>
+            </div>
+            <h3 class="text-xl font-extrabold text-slate-900 mb-2">Actas Oficiales</h3>
+            <ul class="space-y-2 text-sm text-slate-700 mb-4">
+              <li class="flex items-start gap-2"><span class="text-brand-500 font-bold">✓</span> Actas de nacimiento</li>
+              <li class="flex items-start gap-2"><span class="text-brand-500 font-bold">✓</span> Actas de defunción</li>
+              <li class="flex items-start gap-2"><span class="text-brand-500 font-bold">✓</span> Actas de matrimonio</li>
+            </ul>
+            <div class="bg-brand-50/80 border border-brand-100 rounded-xl p-3.5 mb-6">
+              <p class="text-xs font-extrabold uppercase tracking-wide text-brand-700 mb-1">Requisitos:</p>
+              <p class="text-sm font-semibold text-slate-800">CURP o INE</p>
+            </div>
+          </div>
+          <a href="https://wa.me/525612940794?text=Hola%20ASERET,%20necesito%20tramitar%20un%20Acta%20(Nacimiento/Defunci%C3%B3n/Matrimonio)." target="_blank" rel="noopener" class="inline-flex items-center justify-center w-full py-3 px-4 rounded-xl bg-brand-500 hover:bg-brand-600 text-white font-bold text-sm transition-colors">
+            Solicitar Acta
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECCIÓN 3: SERVICIOS LEGALES -->
+  <section id="legales" class="py-16 sm:py-20 bg-white border-t border-slate-100">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col md:flex-row md:items-end justify-between mb-10 sm:mb-12 gap-4">
+        <div class="max-w-2xl">
+          <span class="inline-block text-xs font-extrabold uppercase tracking-wider text-brand-600 bg-brand-50 px-3 py-1 rounded-full mb-3">Sección 03 • Respaldo Jurídico</span>
+          <h2 class="text-2xl sm:text-4xl font-extrabold text-slate-900 tracking-tight mb-3">Servicios Legales y Gestoría Patrimonial</h2>
+          <p class="text-base text-slate-600">Acompañamiento profesional y claro en materia familiar, patrimonial y administrativa.</p>
+        </div>
+        <a href="https://wa.me/525612940794?text=Hola%20ASERET,%20me%20gustar%C3%ADa%20agendar%20una%20asesor%C3%ADa%20legal." target="_blank" rel="noopener" class="inline-flex items-center gap-2 text-sm font-extrabold text-brand-600 hover:text-brand-700">
+          Agendar asesoría directa
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3"/></svg>
+        </a>
+      </div>
+
+      <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
+        <div class="p-6 rounded-2xl border border-slate-200 hover:border-brand-400 bg-slate-50/50 hover:bg-orange-50/40 transition-all">
+          <div class="w-10 h-10 rounded-xl bg-brand-500 text-white font-extrabold flex items-center justify-center mb-4">01</div>
+          <h3 class="text-lg font-extrabold text-slate-900 mb-1.5">Divorcios</h3>
+          <p class="text-sm text-slate-600">Orientación y gestión integral para procesos de divorcio de forma ágil y confidencial.</p>
+        </div>
+
+        <div class="p-6 rounded-2xl border border-slate-200 hover:border-brand-400 bg-slate-50/50 hover:bg-orange-50/40 transition-all">
+          <div class="w-10 h-10 rounded-xl bg-brand-500 text-white font-extrabold flex items-center justify-center mb-4">02</div>
+          <h3 class="text-lg font-extrabold text-slate-900 mb-1.5">Intestados</h3>
+          <p class="text-sm text-slate-600">Juicios sucesorios intestamentarios para regularizar y adjudicar bienes familiares.</p>
+        </div>
+
+        <div class="p-6 rounded-2xl border border-slate-200 hover:border-brand-400 bg-slate-50/50 hover:bg-orange-50/40 transition-all">
+          <div class="w-10 h-10 rounded-xl bg-brand-500 text-white font-extrabold flex items-center justify-center mb-4">03</div>
+          <h3 class="text-lg font-extrabold text-slate-900 mb-1.5">Pensión alimenticia</h3>
+          <p class="text-sm text-slate-600">Asesoría y representación legal para solicitud, fijación o ajuste de pensión alimenticia.</p>
+        </div>
+
+        <div class="p-6 rounded-2xl border border-slate-200 hover:border-brand-400 bg-slate-50/50 hover:bg-orange-50/40 transition-all">
+          <div class="w-10 h-10 rounded-xl bg-brand-500 text-white font-extrabold flex items-center justify-center mb-4">04</div>
+          <h3 class="text-lg font-extrabold text-slate-900 mb-1.5">Traslados de dominio</h3>
+          <p class="text-sm text-slate-600">Gestión y actualización fiscal-catastral en operaciones de compraventa de inmuebles.</p>
+        </div>
+
+        <div class="p-6 rounded-2xl border border-slate-200 hover:border-brand-400 bg-slate-50/50 hover:bg-orange-50/40 transition-all">
+          <div class="w-10 h-10 rounded-xl bg-brand-500 text-white font-extrabold flex items-center justify-center mb-4">05</div>
+          <h3 class="text-lg font-extrabold text-slate-900 mb-1.5">Usucapión</h3>
+          <p class="text-sm text-slate-600">Regularización de propiedad por prescripción positiva para obtener certeza jurídica.</p>
+        </div>
+
+        <div class="p-6 rounded-2xl border border-slate-200 hover:border-brand-400 bg-slate-50/50 hover:bg-orange-50/40 transition-all">
+          <div class="w-10 h-10 rounded-xl bg-brand-500 text-white font-extrabold flex items-center justify-center mb-4">06</div>
+          <h3 class="text-lg font-extrabold text-slate-900 mb-1.5">Escrituraciones</h3>
+          <p class="text-sm text-slate-600">Acompañamiento completo para formalizar la escritura pública de tu inmueble.</p>
+        </div>
+
+        <div class="p-6 rounded-2xl border border-slate-200 hover:border-brand-400 bg-slate-50/50 hover:bg-orange-50/40 transition-all">
+          <div class="w-10 h-10 rounded-xl bg-brand-500 text-white font-extrabold flex items-center justify-center mb-4">07</div>
+          <h3 class="text-lg font-extrabold text-slate-900 mb-1.5">Asesorías</h3>
+          <p class="text-sm text-slate-600">Evaluación personalizada de tu caso para darte la ruta legal más rápida y conveniente.</p>
+        </div>
+
+        <div class="p-6 rounded-2xl border border-slate-200 hover:border-brand-400 bg-slate-50/50 hover:bg-orange-50/40 transition-all">
+          <div class="w-10 h-10 rounded-xl bg-brand-500 text-white font-extrabold flex items-center justify-center mb-4">08</div>
+          <h3 class="text-lg font-extrabold text-slate-900 mb-1.5">Trámites ODAPAS</h3>
+          <p class="text-sm text-slate-600">Gestiones, aclaraciones, contratos y regularizaciones ante el organismo de agua.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CÓMO FUNCIONA (CONFIANZA Y CLARIDAD) -->
+  <section id="como-funciona" class="py-16 bg-slate-900 text-white">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-2xl mx-auto mb-12">
+        <span class="inline-block text-xs font-extrabold uppercase tracking-wider text-brand-400 bg-brand-500/15 border border-brand-500/30 px-3 py-1 rounded-full mb-3">Proceso Simple</span>
+        <h2 class="text-2xl sm:text-3xl font-extrabold mb-3">¿Cómo gestionamos tu trámite en ASERET?</h2>
+        <p class="text-slate-300 text-sm sm:text-base">Sin pérdidas de tiempo ni sorpresas en ventanilla.</p>
+      </div>
+
+      <div class="grid md:grid-cols-3 gap-8">
+        <div class="bg-slate-800/70 border border-slate-700 rounded-2xl p-6">
+          <span class="inline-flex w-10 h-10 rounded-xl bg-brand-500 text-white font-extrabold items-center justify-center mb-4">1</span>
+          <h3 class="text-lg font-bold mb-2">Escríbenos y revisamos</h3>
+          <p class="text-sm text-slate-300 leading-relaxed">Mándanos mensaje al <strong class="text-white">56 1294 0794</strong> indicándonos el trámite que necesitas y validamos tus requisitos.</p>
+        </div>
+        <div class="bg-slate-800/70 border border-slate-700 rounded-2xl p-6">
+          <span class="inline-flex w-10 h-10 rounded-xl bg-brand-500 text-white font-extrabold items-center justify-center mb-4">2</span>
+          <h3 class="text-lg font-bold mb-2">Cotización clara</h3>
+          <p class="text-sm text-slate-300 leading-relaxed">Te informamos tiempos estimados y costo exacto antes de iniciar cualquier gestión.</p>
+        </div>
+        <div class="bg-slate-800/70 border border-slate-700 rounded-2xl p-6">
+          <span class="inline-flex w-10 h-10 rounded-xl bg-brand-500 text-white font-extrabold items-center justify-center mb-4">3</span>
+          <h3 class="text-lg font-bold mb-2">Gestión y entrega</h3>
+          <p class="text-sm text-slate-300 leading-relaxed">Nos encargamos del seguimiento y te entregamos tus documentos o formatos listos.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA FINAL -->
+  <section class="py-16 sm:py-20 bg-gradient-to-br from-brand-500 to-brand-700 text-white">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 text-center">
+      <h2 class="text-3xl sm:text-4xl font-extrabold tracking-tight mb-4">
+        ¿Listo para resolver tu trámite hoy mismo?
+      </h2>
+      <p class="text-base sm:text-lg text-orange-100 mb-8 max-w-2xl mx-auto">
+        Contáctanos directamente por WhatsApp o llamada telefónica. En <strong>Trámites y Servicios ASERET</strong> te atendemos con gusto.
+      </p>
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+        <a href="https://wa.me/525612940794?text=Hola%20Tr%C3%A1mites%20y%20Servicios%20ASERET,%20quiero%20cotizar%20un%20tr%C3%A1mite." target="_blank" rel="noopener" class="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 bg-white text-brand-700 hover:bg-orange-50 font-extrabold text-base px-8 py-4 rounded-2xl shadow-xl transition-transform hover:-translate-y-0.5">
+          Mandar WhatsApp al 56 1294 0794
+        </a>
+        <a href="tel:5612940794" class="w-full sm:w-auto inline-flex items-center justify-center gap-2 bg-brand-800/40 hover:bg-brand-800/60 border border-white/30 text-white font-bold text-base px-7 py-4 rounded-2xl transition-colors">
+          Llamar ahora
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-slate-950 text-slate-400 py-10 border-t border-slate-800">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm">
+      <div>
+        <p class="font-extrabold text-white text-base">Trámites y Servicios <span class="text-brand-500">ASERET</span></p>
+        <p class="text-xs text-slate-500 mt-1">Trámites Vehiculares • Servicios y Actas • Servicios Legales</p>
+      </div>
+      <div class="text-center sm:text-right">
+        <p class="text-white font-bold">Teléfono / WhatsApp: <a href="tel:5612940794" class="text-brand-400 hover:underline">56 1294 0794</a></p>
+        <p class="text-xs text-slate-500 mt-1">© 2026 Trámites y Servicios ASERET. Todos los derechos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Botón Flotante WhatsApp -->
+  <a href="https://wa.me/525612940794?text=Hola%20Tr%C3%A1mites%20y%20Servicios%20ASERET,%20necesito%20informaci%C3%B3n." target="_blank" rel="noopener" aria-label="Contactar por WhatsApp" class="fixed bottom-5 right-5 z-50 flex items-center gap-2.5 bg-brand-500 hover:bg-brand-600 text-white font-extrabold px-4 py-3.5 rounded-full shadow-2xl shadow-brand-600/40 transition-transform hover:scale-105">
+    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.462-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.662.591 1.221.774 1.394.86s.274.072.376-.043c.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.1.824z"/></svg>
+    <span class="hidden sm:inline text-sm">Cotizar ahora</span>
+  </a>
+
+  <!-- Script del Cotizador Interactivo -->
+  <script>
+    const catalog = {
+      vehicular: [
+        {
+          name: "Formatos para pago de derechos y licencias Edomex y CDMX",
+          req: "Datos del vehículo o conductor según el trámite en Edomex o CDMX."
+        },
+        {
+          name: "Cambio de propietario",
+          req: "Factura, INE, comprobante de domicilio, tarjeta de circulación, compraventa o endoso en la factura."
+        },
+        {
+          name: "Renovación de placas",
+          req: "Factura, INE, comprobante de domicilio, tarjeta de circulación, compraventa o endoso en la factura."
+        },
+        {
+          name: "Alta vehículos nuevos y usados",
+          req: "Factura, carta factura, INE y comprobante de domicilio."
+        },
+        {
+          name: "Reposición de tarjeta de circulación",
+          req: "Factura, INE, comprobante de domicilio y tarjeta de circulación."
+        },
+        {
+          name: "Baja de placas",
+          req: "Factura, INE, comprobante de domicilio y tarjeta de circulación."
+        },
+        {
+          name: "Alta de vehículo de otra entidad",
+          req: "Factura, INE, comprobante de domicilio, tarjeta de circulación, compraventa o endoso en la factura."
+        },
+        {
+          name: "Cambio de dígito para circular",
+          req: "Factura, INE, comprobante de domicilio, tarjeta de circulación, compraventa o endoso en la factura."
+        }
+      ],
+      servicios: [
+        {
+          name: "CURP",
+          req: "INE o datos personales."
+        },
+        {
+          name: "Número de Seguro Social (NSS)",
+          req: "CURP e INE."
+        },
+        {
+          name: "Vigencia de derechos IMSS",
+          req: "CURP y Número de Seguro Social (NSS)."
+        },
+        {
+          name: "Semanas cotizadas IMSS",
+          req: "CURP y Número de Seguro Social (NSS)."
+        },
+        {
+          name: "No derechohabiente IMSS o ISSSTE",
+          req: "CURP e INE."
+        },
+        {
+          name: "No deudor alimentario",
+          req: "CURP e INE."
+        },
+        {
+          name: "Antecedentes no penales (Estado, CDMX o Federales)",
+          req: "INE, CURP y comprobante de domicilio."
+        },
+        {
+          name: "Actas de nacimiento, defunción y matrimonio",
+          req: "CURP o INE."
+        }
+      ],
+      legales: [
+        { name: "Divorcios", req: "Asesoría personalizada para revisar documentación inicial." },
+        { name: "Intestados", req: "Asesoría personalizada para revisar documentación inicial." },
+        { name: "Pensión alimenticia", req: "Asesoría personalizada para revisar documentación inicial." },
+        { name: "Traslados de dominio", req: "Asesoría personalizada para revisar documentación inicial." },
+        { name: "Usucapión", req: "Asesoría personalizada para revisar documentación inicial." },
+        { name: "Escrituraciones", req: "Asesoría personalizada para revisar documentación inicial." },
+        { name: "Asesorías legales", req: "Cuéntanos tu caso por WhatsApp o llamada al 56 1294 0794." },
+        { name: "Trámites ODAPAS", req: "Recibo anterior o datos del predio e identificación oficial." }
+      ]
+    };
+
+    const catSelect = document.getElementById('quickCategory');
+    const srvSelect = document.getElementById('quickService');
+    const reqText = document.getElementById('quickReqText');
+    const waBtn = document.getElementById('quickWhatsAppBtn');
+
+    function populateServices() {
+      const cat = catSelect.value;
+      const items = catalog[cat] || [];
+      srvSelect.innerHTML = '';
+      items.forEach((item, index) => {
+        const opt = document.createElement('option');
+        opt.value = index;
+        opt.textContent = item.name;
+        srvSelect.appendChild(opt);
+      });
+      updateReq();
+    }
+
+    function updateReq() {
+      const cat = catSelect.value;
+      const idx = srvSelect.value;
+      const selected = catalog[cat][idx];
+      if (selected) {
+        reqText.textContent = selected.req;
+      }
+    }
+
+    catSelect.addEventListener('change', populateServices);
+    srvSelect.addEventListener('change', updateReq);
+
+    waBtn.addEventListener('click', () => {
+      const cat = catSelect.value;
+      const idx = srvSelect.value;
+      const selected = catalog[cat][idx];
+      const msg = encodeURIComponent(`Hola Trámites y Servicios ASERET, me interesa información sobre: ${selected.name}`);
+      window.open(`https://wa.me/525612940794?text=${msg}`, '_blank');
+    });
+
+    populateServices();
+  </script>
+</body>
+</html>
